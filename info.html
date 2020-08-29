@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <title>Hello, world!</title>
+    <title>Info</title>
   </head>
   <body>
       <div class="container">
@@ -23,13 +23,13 @@
                 Welcome To Our Shop
             </p>
     
-            <select style="width: 250px; padding: 5px;">
+            <select class="w-25 h-80 p-1">
                 <option>AM</option>
                 <option>RU</option>
                 <option>EN</option>
             </select>
     
-            <select style="width: 250px; padding: 5px;">
+            <select class="w-25 h-80 p-1">
                 <option>֏</option>
                 <option>$</option>
                 <option>€</option>
@@ -147,33 +147,184 @@
             </div>
           </nav>
 
-          <nav class="col-12" aria-label="breadcrumb">
-            <ol class="breadcrumb">
+          <nav class="col-12 d-flex" aria-label="breadcrumb">
+            <ol class="breadcrumb w-75">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
               <li class="breadcrumb-item"><a href="#">Library</a></li>
               <li class="breadcrumb-item"><a href="#">Library</a></li>
               <li class="breadcrumb-item active" aria-current="page">
                 Microsoft Surface Laptop 3 15 Ryzen 5 3580U</li>
             </ol>
+            <div class="d-flex">
+              <p class="ml-2 mt-2 p-1">Sort by</p>
+              <select class="ml-2 mt-2 w-70 h-50 p-1" style="border-radius: 5px;">
+                <option>Price: Low To High</option>
+                <option>Price: High To Low</option>
+                <option></option>
+                <option></option>
+              </select>
+              </div>
           </nav>
 
-          <div class="col-12">
+          <div class="col-12 d-flex">
               <div class="col-6 d-flex">
         <div class="col-3">
-            <a data-fancybox="gallery" href="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"><img class="img-fluid" src="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"></a>
-            <a data-fancybox="gallery" href="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"><img class="img-fluid" src="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"></a>
-            <a data-fancybox="gallery" href="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"><img class="img-fluid" src="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"></a>
-            <a data-fancybox="gallery" href="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"><img class="img-fluid" src="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"></a>
+            <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
+            <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
+            <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
+            <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
         </div>
                 <div class="col-9">
-                    <a data-fancybox="gallery" href="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"><img class="img-fluid" src="https://www.notebookcheck.net/uploads/tx_nbc2/MicrosoftSurfaceLaptop3-15__1_.JPG"></a>
+                    <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
                 </div>
             </div>
 
             <div class="col-6">
+              <h1>$200</h1>
+              <div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Quantity</div>
+                  </div>
+                  <input type="text" class="w-25" style="border: 1px solid lightgray;" id="inlineFormInputGroupUsername" placeholder="1">
+                  <button type="submit" class="btn btn-primary">Add To Cart</button>
+                </div>
+                <h5>Options</h5>
+                <div class="d-flex">
+                <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitches">
+                  <label class="custom-control-label" for="customSwitches">Mouse</label>
+                </div>
 
+                <div class="custom-control custom-switch ml-2">
+                  <input type="checkbox" class="custom-control-input" id="customSwitches">
+                  <label class="custom-control-label" for="customSwitches">Earphones</label>
+                </div>
+
+                <div class="custom-control custom-switch ml-2">
+                  <input type="checkbox" class="custom-control-input" id="customSwitches">
+                  <label class="custom-control-label" for="customSwitches">Case</label>
+                </div>
+                </div>
+                <h5>Color</h5>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Black</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Silver</label>
+                </div>
+              </div>
             </div>
                 </div>
+
+                <p>
+                  <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Overview
+                  </a>
+                  <a class="ml-2" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Rating
+                  </a>
+                  <a class="ml-2" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Link
+                  </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+
+                <div class="collapse" id="collapseExample1">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+
+                <div class="collapse" id="collapseExample2">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+
+                <div class="row col-12 justify-content-center">
+                  <h1 class="col-12" style="text-align: center;">You May Also Like!</h1>
+                  <div class="col mb-2 col-12 col-xl-2">
+                    <div class="card">
+                      <img src="img/Computer.jpg" class="img-fluid card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-2 col-12 col-xl-2">
+                    <div class="card">
+                      <img src="img/Computer.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-2 col-12 col-xl-2">
+                    <div class="card">
+                      <img src="img/Computer.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-2 col-12 col-xl-2">
+                    <div class="card">
+                      <img src="img/Computer.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col mb-2 col-12 col-xl-2">
+                    <div class="card">
+                      <img src="img/Computer.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Product 1</h5>
+                        <p class="card-text">$122.99</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <nav class="col-12 justify-content-center" aria-label="...">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <span class="page-link">Previous</span>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item" aria-current="page">
+                      <span class="page-link">
+                        2
+                        <span class="sr-only">(current)</span>
+                      </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                </nav>
+                
                 <ul class="nav col-12">
                     <li class="nav-item col-12 col-xl-3"  style="border: 1px solid gray;">
                       <a class="nav-link active" style="text-align: center; color: gray;" href="#">CONTACT US</a>
@@ -286,16 +437,16 @@
             Find us on:
           </a>
           <a class="navbar-brand" href="#">
-            <img src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202090instagramlogosocialsocialmedia-115598_115703.png" width="30" height="30" alt="" loading="lazy">
+            <img src="img/InstagramLogo.png" width="30" height="30" alt="" loading="lazy">
           </a>
           <a class="navbar-brand" href="#">
-            <img src="https://icons-for-free.com/iconfiles/png/512/facebook+logo+logo+website+icon-1320190502625926346.png" width="30" height="30" alt="" loading="lazy">
+            <img src="img/FacebookLogo.png" width="30" height="30" alt="" loading="lazy">
           </a>
           <a class="navbar-brand" href="#">
-            <img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png" width="30" height="30" alt="" loading="lazy">
+            <img src="img/TwitterLogo.png" width="30" height="30" alt="" loading="lazy">
           </a>
           <a class="navbar-brand" href="#">
-            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" width="30" height="30" alt="" loading="lazy">
+            <img src="img/YoutubeLogo.png" width="30" height="30" alt="" loading="lazy">
           </a>
         
             <span class="navbar-text">
@@ -305,6 +456,61 @@
                     
                   </nav>
             </div>
+            </div>
+
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+                
+                    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                            <form> <div class="form-row"> <div class="col"> <input type="text" class="form-control" placeholder="First name"> </div> <div class="col"> <input type="text" class="form-control" placeholder="Last name"> </div> </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+             
+                  </div>
+                </div>
+              </div>
             </div>
 
     <!-- Optional JavaScript -->
