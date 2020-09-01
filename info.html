@@ -147,7 +147,7 @@
             </div>
           </nav>
 
-          <nav class="col-12 d-flex" aria-label="breadcrumb">
+          <nav class="col-12 d-lg-flex" aria-label="breadcrumb">
             <ol class="breadcrumb w-75">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
               <li class="breadcrumb-item"><a href="#">Library</a></li>
@@ -155,7 +155,7 @@
               <li class="breadcrumb-item active" aria-current="page">
                 Microsoft Surface Laptop 3 15 Ryzen 5 3580U</li>
             </ol>
-            <div class="d-flex">
+            <div class="d-lg-flex">
               <p class="ml-2 mt-2 p-1">Sort by</p>
               <select class="ml-2 mt-2 w-70 h-50 p-1" style="border-radius: 5px;">
                 <option>Price: Low To High</option>
@@ -166,7 +166,7 @@
               </div>
           </nav>
 
-          <div class="col-12 d-flex">
+          <div class="col-12 d-lg-flex">
               <div class="col-6 d-flex">
         <div class="col-3">
             <a data-fancybox="gallery" href="img/Computer2.jpeg"><img class="img-fluid" src="img/Computer2.jpeg"></a>
@@ -191,20 +191,18 @@
                 </div>
                 <h5>Options</h5>
                 <div class="d-flex">
-                <div class="custom-control custom-switch">
-                  <input type="checkbox" class="custom-control-input" id="customSwitches">
-                  <label class="custom-control-label" for="customSwitches">Mouse</label>
-                </div>
-
-                <div class="custom-control custom-switch ml-2">
-                  <input type="checkbox" class="custom-control-input" id="customSwitches">
-                  <label class="custom-control-label" for="customSwitches">Earphones</label>
-                </div>
-
-                <div class="custom-control custom-switch ml-2">
-                  <input type="checkbox" class="custom-control-input" id="customSwitches">
-                  <label class="custom-control-label" for="customSwitches">Case</label>
-                </div>
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Mouse</label>
+                  </div>
+                  <div class="custom-control custom-switch ml-2">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                    <label class="custom-control-label" for="customSwitch2">Earphones</label>
+                  </div>
+                  <div class="custom-control custom-switch ml-2">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                    <label class="custom-control-label" for="customSwitch3">Case</label>
+                  </div>
                 </div>
                 <h5>Color</h5>
                 <div class="form-check form-check-inline">
@@ -340,28 +338,11 @@
                     </li>
                   </ul>
         
-                  <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
-                    <ul class="nav">
-                      <li class="nav-item col-12">
-                        <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 1</a>
-                      </li>
-                      <li class="nav-item col-12">
-                        <a class="nav-link" style="color: gray;" href="#">Link 1</a>
-                      </li>
-                      <li class="nav-item col-12">
-                        <a class="nav-link" style="color: gray;" href="#">Link 2</a>
-                      </li>
-                      <li class="nav-item col-12">
-                        <a class="nav-link" style="color: gray;" href="#">Link 3</a>
-                      </li>
-                      
-                    </ul>
-                    </div>
-        
-                    <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
+                  <div class="d-flex justify-content-center">
+                    <div class="col-3 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
                       <ul class="nav">
                         <li class="nav-item col-12">
-                          <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 2</a>
+                          <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 1</a>
                         </li>
                         <li class="nav-item col-12">
                           <a class="nav-link" style="color: gray;" href="#">Link 1</a>
@@ -375,11 +356,11 @@
                         
                       </ul>
                       </div>
-        
-                      <div class="col-4 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
+          
+                      <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
                         <ul class="nav">
                           <li class="nav-item col-12">
-                            <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 3</a>
+                            <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 2</a>
                           </li>
                           <li class="nav-item col-12">
                             <a class="nav-link" style="color: gray;" href="#">Link 1</a>
@@ -393,29 +374,11 @@
                           
                         </ul>
                         </div>
-        
-                        <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 1px 0px 1px;">
-                        <ul class="nav">
-                          <li class="nav-item col-12">
-                            <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 4</a>
-                          </li>
-                          <li class="nav-item col-12">
-                            <a class="nav-link" style="color: gray;" href="#">Link 1</a>
-                          </li>
-                          <li class="nav-item col-12">
-                            <a class="nav-link" style="color: gray;" href="#">Link 2</a>
-                          </li>
-                          <li class="nav-item col-12">
-                            <a class="nav-link" style="color: gray;" href="#">Link 3</a>
-                          </li>
-                          
-                        </ul>
-                        </div>
-        
-                        <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 1px 0px 0px;">
+          
+                        <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 0px 0px 1px;">
                           <ul class="nav">
                             <li class="nav-item col-12">
-                              <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 5</a>
+                              <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 3</a>
                             </li>
                             <li class="nav-item col-12">
                               <a class="nav-link" style="color: gray;" href="#">Link 1</a>
@@ -429,6 +392,43 @@
                             
                           </ul>
                           </div>
+          
+                          <div class="col-2 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 1px 0px 1px;">
+                          <ul class="nav">
+                            <li class="nav-item col-12">
+                              <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 4</a>
+                            </li>
+                            <li class="nav-item col-12">
+                              <a class="nav-link" style="color: gray;" href="#">Link 1</a>
+                            </li>
+                            <li class="nav-item col-12">
+                              <a class="nav-link" style="color: gray;" href="#">Link 2</a>
+                            </li>
+                            <li class="nav-item col-12">
+                              <a class="nav-link" style="color: gray;" href="#">Link 3</a>
+                            </li>
+                            
+                          </ul>
+                          </div>
+          
+                          <div class="col-3 d-none d-xl-inline" style="border-style: solid; border-color: gray; border-width: 0px 1px 0px 0px;">
+                            <ul class="nav">
+                              <li class="nav-item col-12">
+                                <a class="nav-link active" style="font-size: 18px; color: black;" href="#">LINK GROUP 5</a>
+                              </li>
+                              <li class="nav-item col-12">
+                                <a class="nav-link" style="color: gray;" href="#">Link 1</a>
+                              </li>
+                              <li class="nav-item col-12">
+                                <a class="nav-link" style="color: gray;" href="#">Link 2</a>
+                              </li>
+                              <li class="nav-item col-12">
+                                <a class="nav-link" style="color: gray;" href="#">Link 3</a>
+                              </li>
+                              
+                            </ul>
+                            </div>
+                            </div>
         
                   <nav class="navbar navbar-dark bg-dark col-12">
                     <!-- Just an image -->
